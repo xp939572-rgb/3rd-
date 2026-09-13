@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Hassan Real Estate & Builders | Jhelum, Punjab</title>
+<meta name="description" content="Find the right property. Build your future. Hassan Real Estate & Builders — residential and commercial property opportunities in Jhelum, Punjab, Pakistan." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23171a19%22/><text x=%2250%22 y=%2268%22 font-size=%2260%22 font-family=%22Georgia,serif%22 font-style=%22italic%22 fill=%22%23d4b77b%22 text-anchor=%22middle%22>H</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<style>
+:root { --background: #f2efe9; --foreground: #1d211f; --card: #f8f6f1; --card-foreground: #1d211f; --border: rgba(29, 33, 31, .12); --ring: #b89d68; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: #151817; }
+body { margin: 0; min-width: 320px; background: #f2efe9; color: #1d211f; font-family: 'DM Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+button, input, select, textarea { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+button { border: 0; background: none; }
+a { color: inherit; text-decoration: none; }
+
+.site-shell { overflow: clip; }
+.page-width { width: min(1440px, 100%); margin: 0 auto; padding-left: clamp(22px, 5vw, 84px); padding-right: clamp(22px, 5vw, 84px); }
+.site-nav { position: fixed; inset: 0 0 auto; z-index: 20; height: 80px; display: flex; align-items: center; gap: 34px; padding: 0 clamp(22px, 5vw, 84px); color: #fff; transition: background .3s ease, color .3s ease, border .3s ease, backdrop-filter .3s ease; width: 100%; top: 0; left: 0; }
+.site-nav--scrolled { background: rgba(21, 24, 23, .84); backdrop-filter: blur(18px); border-bottom: 1px solid rgba(255,255,255,.08); }
+.brand { display: inline-flex; align-items: center; gap: 11px; background: transparent; color: inherit; padding: 0; cursor: pointer; }
+.brand-mark { width: 31px; height: 31px; display: grid; place-items: center; border: 1px solid #c6a970; color: #d4b77b; font-family: 'Playfair Display', serif; font-size: 18px; font-style: italic; line-height: 1; }
+.brand-copy { display: flex; flex-direction: column; text-align: left; line-height: 1; gap: 5px; }
+.brand-copy strong, .footer-brand strong { font-size: 13px; letter-spacing: .24em; font-weight: 600; }
+.brand-copy small, .footer-brand small { color: #c5a96d; font-family: 'DM Mono', monospace; font-size: 7px; letter-spacing: .17em; }
+.nav-links { display: flex; align-items: center; gap: 28px; margin-left: auto; }
+.nav-links button { color: rgba(255,255,255,.72); background: transparent; font-size: 12px; letter-spacing: .08em; transition: color .2s ease; cursor: pointer; }
+.nav-links button:hover { color: #d8b97a; }
+.nav-cta { display: inline-flex; align-items: center; gap: 10px; color: #171a19; background: #d1b274; padding: 12px 15px; font-size: 11px; letter-spacing: .04em; cursor: pointer; transition: transform .2s ease, background .2s ease; }
+.nav-cta:hover { background: #e0c88f; transform: translateY(-1px); }
+.menu-toggle { display: none; color: #fff; background: transparent; }
+
+.hero-section { position: relative; min-height: 790px; height: min(92vh, 900px); display: flex; align-items: center; color: #fff; isolation: isolate; background: #171a19; }
+.hero-image { position: absolute; inset: 0; z-index: -3; background-image: url('images/hero.jpg'); background-size: cover; background-position: center; animation: hero-drift 16s ease-out both; }
+.hero-vignette { position: absolute; inset: 0; z-index: -2; background: linear-gradient(90deg, rgba(18, 21, 20, .94) 0%, rgba(18,21,20,.68) 41%, rgba(18,21,20,.18) 77%, rgba(18,21,20,.42) 100%), linear-gradient(0deg, rgba(18,21,20,.58), transparent 46%); }
+.hero-grid { position: absolute; inset: 0; z-index: -1; opacity: .18; background-image: linear-gradient(rgba(255,255,255,.09) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.09) 1px, transparent 1px); background-size: 72px 72px; mask-image: linear-gradient(90deg, rgba(0,0,0,.55), transparent 75%); }
+.hero-content { position: relative; padding-top: 74px; }
+.hero-kicker, .eyebrow { display: flex; align-items: center; gap: 9px; color: #d2b878; font-family: 'DM Mono', monospace; font-size: 10px; font-weight: 500; letter-spacing: .18em; }
+.gold-dot { width: 6px; height: 6px; display: inline-block; border-radius: 50%; background: #d2b878; box-shadow: 0 0 0 4px rgba(210,184,120,.12); }
+.kicker-divider { color: rgba(255,255,255,.35); }
+.hero-title { max-width: 800px; margin: 27px 0 22px; font-size: clamp(58px, 7.4vw, 112px); line-height: .9; letter-spacing: -.065em; font-weight: 500; }
+.hero-title em, .display-title em { color: #d7b97b; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 500; letter-spacing: -.045em; }
+.hero-title span { color: rgba(255,255,255,.76); }
+.hero-subtitle { max-width: 375px; margin: 0 0 32px; color: rgba(255,255,255,.65); font-size: 15px; line-height: 1.6; }
+.hero-actions { display: flex; align-items: center; gap: 12px; }
+.button { min-height: 44px; display: inline-flex; align-items: center; justify-content: center; gap: 20px; padding: 0 17px; cursor: pointer; font-size: 11px; letter-spacing: .07em; transition: transform .2s ease, background .2s ease, color .2s ease, border .2s ease; }
+.button:active, .property-arrow:active { transform: scale(.97); }
+.button--gold { color: #1b1e1c; background: #d1b274; }
+.button--gold:hover { background: #e1c991; transform: translateY(-2px); }
+.button--line { color: #fff; background: transparent; border: 1px solid rgba(255,255,255,.28); }
+.button--line:hover { border-color: #d1b274; color: #d1b274; }
+.hero-note { position: absolute; left: clamp(330px, 36vw, 540px); bottom: 8px; display: flex; align-items: center; gap: 12px; color: rgba(255,255,255,.58); font-family: 'DM Mono', monospace; font-size: 9px; line-height: 1.45; letter-spacing: .08em; }
+.hero-note > span:first-child { color: #d2b878; font-size: 11px; }
+.hero-note-line { width: 46px; height: 1px; background: rgba(210,184,120,.56); }
+.hero-side-label { position: absolute; top: 47%; right: 16px; transform: rotate(90deg) translateX(50%); transform-origin: right center; color: rgba(255,255,255,.42); font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .24em; }
+.scroll-cue { position: absolute; right: clamp(22px, 5vw, 84px); bottom: 30px; display: flex; align-items: center; gap: 13px; color: rgba(255,255,255,.7); background: transparent; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: .1em; cursor: pointer; writing-mode: vertical-rl; }
+.scroll-cue svg { color: #d2b878; }
+
+.search-wrap { position: relative; z-index: 2; margin-top: -70px; }
+.search-panel { display: grid; grid-template-columns: 230px 1fr; min-height: 145px; padding: 25px 26px; background: rgba(246,243,236,.96); box-shadow: 0 24px 60px rgba(13,18,15,.13); }
+.search-intro { padding-right: 20px; border-right: 1px solid rgba(29,33,31,.13); }
+.eyebrow--dark { color: #967a49; }
+.search-intro h2 { margin: 12px 0 0; color: #202321; font-size: 24px; line-height: 1.02; letter-spacing: -.04em; font-weight: 600; }
+.search-intro h2 em { color: #a48248; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 500; }
+.search-fields { display: grid; grid-template-columns: repeat(4, minmax(110px, 1fr)) 160px; align-items: end; gap: 14px; padding-left: 25px; }
+.field-group, .inquiry-form label { display: flex; flex-direction: column; gap: 9px; }
+.field-group > span, .inquiry-form label > span { color: #7c817b; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: .09em; text-transform: uppercase; }
+.select-wrap, .input-with-icon { position: relative; display: flex; align-items: center; min-height: 40px; border-bottom: 1px solid rgba(29,33,31,.2); }
+.select-wrap select, .input-with-icon input, .inquiry-form input, .inquiry-form textarea { width: 100%; border: 0; outline: 0; background: transparent; color: #242825; font-size: 13px; }
+.select-wrap select { appearance: none; cursor: pointer; }
+.select-wrap svg { position: absolute; right: 0; pointer-events: none; color: #aa8a54; }
+.input-with-icon svg { margin-right: 7px; color: #aa8a54; flex: 0 0 auto; }
+.search-submit { min-height: 40px; display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; padding: 0 13px; background: #1f2421; color: #f4efe4; font-size: 11px; cursor: pointer; transition: background .2s ease, transform .2s ease; }
+.search-submit:hover { background: #39413c; transform: translateY(-2px); }
+
+.section { padding-top: clamp(92px, 11vw, 165px); padding-bottom: clamp(92px, 11vw, 165px); }
+.section--light { background: #f2efe9; }
+.section--dark { background: #171b19; color: #f3eee3; }
+.section-heading--split { display: flex; justify-content: space-between; align-items: flex-end; gap: 40px; margin-bottom: 50px; }
+.display-title { margin: 17px 0 0; color: #232724; font-size: clamp(52px, 6vw, 88px); line-height: .9; letter-spacing: -.07em; font-weight: 500; }
+.display-title--light { color: #f1ece2; }
+.heading-aside { max-width: 315px; padding-bottom: 3px; }
+.heading-aside p, .section-intro { color: #7b817a; font-size: 13px; line-height: 1.65; }
+.text-link { display: inline-flex; align-items: center; gap: 10px; padding: 0; background: transparent; font-size: 11px; letter-spacing: .07em; cursor: pointer; transition: color .2s ease, gap .2s ease; }
+.text-link:hover { gap: 15px; }
+.text-link--dark { margin-top: 20px; color: #8d6e3c; }
+.text-link--light { color: #d2b878; }
+.property-grid { display: grid; grid-template-columns: 1.18fr 1fr 1fr; gap: 17px; }
+.property-card { min-width: 0; }
+.property-image-wrap { position: relative; height: 460px; overflow: hidden; background: #d8d4cc; }
+.property-card:nth-child(2) .property-image-wrap, .property-card:nth-child(3) .property-image-wrap { height: 370px; margin-top: 90px; }
+.property-image-wrap::after { content: ''; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(21,24,22,.72), transparent 47%); pointer-events: none; }
+.property-image-wrap img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .7s cubic-bezier(.23,1,.32,1), filter .7s ease; filter: saturate(.82); }
+.property-card:hover .property-image-wrap img { transform: scale(1.045); filter: saturate(1); }
+.demo-tag { position: absolute; top: 17px; left: 17px; z-index: 1; padding: 6px 8px; color: #ede7da; background: rgba(18,21,20,.7); backdrop-filter: blur(10px); font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .11em; }
+.property-number { position: absolute; top: 16px; right: 16px; z-index: 1; color: rgba(255,255,255,.85); font-family: 'DM Mono', monospace; font-size: 11px; }
+.property-arrow { position: absolute; right: 17px; bottom: 17px; z-index: 1; width: 42px; height: 42px; display: grid; place-items: center; color: #1f2522; background: #d1b274; cursor: pointer; transition: transform .2s ease, background .2s ease; }
+.property-arrow:hover { background: #ead39a; transform: rotate(8deg); }
+.property-card-body { display: flex; justify-content: space-between; gap: 15px; padding: 18px 2px 0; }
+.property-type { color: #9c8252; font-family: 'DM Mono', monospace; font-size: 9px; letter-spacing: .15em; text-transform: uppercase; }
+.property-card h3 { margin: 8px 0 5px; color: #252a27; font-size: 21px; font-weight: 500; letter-spacing: -.04em; }
+.property-card p { display: flex; align-items: center; gap: 5px; margin: 0; color: #7f847d; font-size: 12px; }
+.property-card p svg { color: #ae8b54; }
+.property-detail { display: block; margin-top: 14px; color: #505750; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: .04em; }
+.property-index { padding-top: 5px; color: #9d8050; font-family: 'DM Mono', monospace; font-size: 10px; }
+
+.why-section { display: grid; grid-template-columns: minmax(320px, .88fr) 1.12fr; gap: clamp(55px, 9vw, 150px); align-items: center; min-height: 720px; }
+.why-visual { position: relative; min-height: 520px; overflow: hidden; background: radial-gradient(circle at 47% 45%, rgba(191,161,102,.2), transparent 30%), linear-gradient(135deg, #222a26, #111513); }
+.why-visual::before { content: ''; position: absolute; inset: 0; opacity: .14; background-image: linear-gradient(rgba(215,185,123,.35) 1px, transparent 1px), linear-gradient(90deg, rgba(215,185,123,.35) 1px, transparent 1px); background-size: 43px 43px; transform: perspective(500px) rotateX(55deg) scale(1.5) translateY(90px); transform-origin: center bottom; }
+.wireframe-building { position: absolute; left: 18%; right: 10%; bottom: 23%; height: 48%; transform: perspective(500px) rotateY(-22deg) rotateX(5deg) skewY(-4deg); border: 1px solid rgba(219,188,121,.5); background: linear-gradient(130deg, rgba(217,186,119,.12), rgba(217,186,119,.02)); box-shadow: 31px 27px 0 rgba(219,188,121,.08), 31px 27px 0 1px rgba(219,188,121,.25); }
+.wireframe-building::after { content: ''; position: absolute; top: 22%; right: -11%; width: 11%; height: 78%; border: 1px solid rgba(219,188,121,.4); border-left: 0; background: rgba(219,188,121,.05); }
+.wireframe-building span { position: relative; display: inline-block; width: 15%; height: 34%; margin: 14% 1.1% 0; border: 1px solid rgba(219,188,121,.42); }
+.wireframe-orbit { position: absolute; border: 1px solid rgba(219,188,121,.28); border-radius: 50%; transform: rotate(-18deg); }
+.orbit-one { width: 88%; height: 41%; left: 7%; top: 27%; }
+.orbit-two { width: 55%; height: 67%; left: 22%; top: 13%; transform: rotate(55deg); border-color: rgba(219,188,121,.17); }
+.why-visual-label { position: absolute; left: 24px; bottom: 22px; display: flex; align-items: center; gap: 12px; color: rgba(239,233,220,.6); font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .13em; line-height: 1.5; }
+.why-visual-label > span:first-child { width: 28px; height: 28px; display: grid; place-items: center; border: 1px solid #c7a66c; color: #d5b574; font-family: 'Playfair Display', serif; font-size: 16px; font-style: italic; }
+.why-copy { max-width: 600px; }
+.why-lede { max-width: 470px; margin: 31px 0 42px; color: rgba(244,237,225,.62); font-size: 14px; line-height: 1.75; }
+.reason-list { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; border-top: 1px solid rgba(255,255,255,.14); }
+.reason-item { position: relative; display: grid; grid-template-columns: 34px 1fr 16px; align-items: center; gap: 12px; min-height: 83px; border-bottom: 1px solid rgba(255,255,255,.14); }
+.reason-icon { width: 32px; height: 32px; display: grid; place-items: center; color: #d2b878; border: 1px solid rgba(210,184,120,.36); }
+.reason-item h3 { margin: 0 0 4px; color: #f0eadd; font-size: 13px; font-weight: 500; }
+.reason-item p { margin: 0; color: rgba(242,236,224,.47); font-size: 11px; line-height: 1.4; }
+.reason-check { color: #d2b878; opacity: .75; }
+
+.services-section { padding-bottom: 120px; }
+.section-heading { max-width: 640px; margin-bottom: 48px; }
+.section-intro { max-width: 400px; margin: 28px 0 0; }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
+.service-card { min-height: 278px; display: flex; flex-direction: column; justify-content: space-between; padding: 21px; color: #ece7dc; background: #222825; transition: transform .3s ease, background .3s ease; cursor: default; }
+.service-card:hover { transform: translateY(-7px); background: #29322d; }
+.service-card:nth-child(2) { background: #33372f; }
+.service-card:nth-child(3) { background: #c8b58b; color: #1e2420; }
+.service-card:nth-child(4) { background: #b08e56; color: #1e2420; }
+.service-top, .service-bottom { display: flex; justify-content: space-between; align-items: flex-start; }
+.service-top > span { font-family: 'DM Mono', monospace; font-size: 10px; opacity: .6; }
+.service-top svg { color: #d4b477; }
+.service-card:nth-child(3) svg, .service-card:nth-child(4) svg { color: #303831; }
+.service-bottom { align-items: flex-end; gap: 14px; }
+.service-bottom h3 { max-width: 145px; margin: 0; font-family: 'Playfair Display', serif; font-size: 23px; font-weight: 500; line-height: 1; }
+.service-bottom p { position: absolute; opacity: 0; pointer-events: none; }
+.service-bottom > svg { flex: 0 0 auto; opacity: .8; transition: transform .2s ease; }
+.service-card:hover .service-bottom > svg { transform: translate(3px, -3px); }
+.service-note { display: flex; gap: 9px; align-items: center; margin-top: 20px; color: #858b83; font-size: 11px; }
+.service-note svg { color: #aa8750; flex: 0 0 auto; }
+
+.location-section { display: grid; grid-template-columns: 1.15fr .85fr; min-height: 600px; padding-top: 0; padding-bottom: 0; color: #f4eee4; background: #171b19; }
+.location-map { position: relative; min-height: 600px; overflow: hidden; background: radial-gradient(circle at 60% 45%, rgba(195,163,102,.16), transparent 31%), #202824; }
+.map-noise { position: absolute; inset: 0; opacity: .13; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E"); mix-blend-mode: screen; }
+.map-grid-lines { position: absolute; inset: -20%; opacity: .16; background-image: linear-gradient(33deg, transparent 48%, #d4b477 49%, transparent 50%), linear-gradient(-18deg, transparent 48%, #d4b477 49%, transparent 50%), linear-gradient(90deg, rgba(220,198,151,.4) 1px, transparent 1px), linear-gradient(rgba(220,198,151,.4) 1px, transparent 1px); background-size: 180px 130px, 130px 170px, 55px 55px, 55px 55px; transform: rotate(8deg) scale(1.3); }
+.map-road { position: absolute; height: 1px; background: rgba(225,204,160,.5); transform-origin: left center; box-shadow: 0 0 0 1px rgba(20,25,22,.25); }
+.map-road--one { width: 75%; left: -9%; top: 39%; transform: rotate(24deg); }
+.map-road--two { width: 75%; left: 18%; top: 71%; transform: rotate(-38deg); }
+.map-road--three { width: 70%; left: 35%; top: 30%; transform: rotate(78deg); }
+.map-road--four { width: 58%; left: 6%; top: 57%; transform: rotate(-9deg); }
+.map-pin { position: absolute; left: 52%; top: 49%; display: flex; align-items: center; gap: 12px; transform: translate(-50%, -50%); }
+.map-pin > span { position: relative; width: 16px; height: 16px; display: block; border: 1px solid #f1d28d; border-radius: 50%; background: #d2b878; box-shadow: 0 0 0 10px rgba(210,184,120,.11), 0 0 0 20px rgba(210,184,120,.05); }
+.map-pin > span::after { content: ''; position: absolute; left: 6px; top: 15px; width: 1px; height: 43px; background: #d2b878; }
+.map-pin strong { display: block; color: #f0e5cb; font-size: 12px; font-weight: 500; }
+.map-pin small { display: block; margin-top: 3px; color: rgba(241,229,203,.58); font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .06em; }
+.map-coordinates { position: absolute; left: 25px; bottom: 22px; color: rgba(225,204,160,.62); font-family: 'DM Mono', monospace; font-size: 9px; line-height: 1.6; letter-spacing: .08em; }
+.map-corner { position: absolute; right: 25px; top: 24px; color: rgba(225,204,160,.62); text-align: right; font-family: 'DM Mono', monospace; font-size: 9px; line-height: 1.6; letter-spacing: .1em; }
+.map-corner span { color: rgba(225,204,160,.36); }
+.location-copy { display: flex; flex-direction: column; justify-content: center; padding: 75px clamp(26px, 6vw, 90px); }
+.location-address { margin: 32px 0 19px; color: rgba(241,235,222,.65); font-size: 14px; line-height: 1.7; }
+.location-address strong { color: #f1eadb; font-weight: 500; }
+.phone-link { display: inline-flex; align-items: center; gap: 9px; color: #d2b878; font-family: 'DM Mono', monospace; font-size: 12px; letter-spacing: .06em; }
+.location-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 34px; }
+.button--outline-light { color: #eee9df; background: transparent; border: 1px solid rgba(255,255,255,.26); }
+.button--outline-light:hover { border-color: #d1b274; color: #d1b274; }
+
+.contact-section { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(60px, 12vw, 200px); padding-top: clamp(105px, 12vw, 170px); padding-bottom: clamp(105px, 12vw, 170px); background: #f2efe9; }
+.contact-intro > p { max-width: 280px; margin: 31px 0 46px; color: #797f78; font-size: 14px; line-height: 1.65; }
+.contact-phone { display: flex; flex-direction: column; gap: 8px; color: #7a8078; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: .06em; }
+.contact-phone a { display: inline-flex; align-items: center; gap: 8px; color: #987741; font-size: 16px; }
+.inquiry-form { display: flex; flex-direction: column; gap: 29px; padding: 30px; background: #e7e3db; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.inquiry-form input, .inquiry-form textarea { min-height: 40px; border-bottom: 1px solid rgba(29,33,31,.25); border-radius: 0; }
+.inquiry-form input::placeholder, .inquiry-form textarea::placeholder { color: #979b94; }
+.inquiry-form textarea { resize: vertical; padding-top: 9px; }
+.select-wrap--dark { border-bottom-color: rgba(29,33,31,.25); }
+.form-submit { width: 100%; margin-top: 2px; }
+.site-footer { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 112px; color: rgba(235,230,218,.78); background: #171b19; }
+.footer-brand { display: flex; align-items: center; gap: 10px; }
+.footer-brand > div { display: flex; flex-direction: column; gap: 5px; }
+.footer-center { color: rgba(235,230,218,.55); text-align: center; font-size: 11px; line-height: 1.55; }
+.footer-center span { color: #c6a66a; font-family: 'DM Mono', monospace; font-size: 8px; letter-spacing: .12em; }
+.footer-right { display: flex; align-items: center; gap: 16px; color: #d4b477; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: .05em; }
+.footer-right a { display: inline-flex; align-items: center; gap: 4px; }
+
+.reveal-up { animation: reveal-up .8s cubic-bezier(.23,1,.32,1) both; }
+.delay-1 { animation-delay: .12s; } .delay-2 { animation-delay: .2s; } .delay-3 { animation-delay: .28s; } .delay-4 { animation-delay: .4s; }
+@keyframes reveal-up { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes hero-drift { from { opacity: .5; transform: scale(1.06); } to { opacity: 1; transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+
+/* Toast notifications (lightweight replacement for sonner) */
+.toast-stack { position: fixed; right: 20px; bottom: 20px; z-index: 100; display: flex; flex-direction: column; gap: 10px; width: min(340px, calc(100vw - 40px)); }
+.toast-item { background: #1f2421; color: #f4efe4; padding: 14px 16px; box-shadow: 0 18px 40px rgba(0,0,0,.28); border-left: 3px solid #d1b274; animation: toast-in .35s cubic-bezier(.23,1,.32,1) both; }
+.toast-item strong { display: block; font-size: 13px; font-weight: 600; margin-bottom: 3px; }
+.toast-item span { display: block; font-size: 11px; color: rgba(244,239,228,.68); line-height: 1.5; }
+.toast-item.toast-out { animation: toast-out .3s ease both; }
+@keyframes toast-in { from { opacity: 0; transform: translateY(14px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
+@keyframes toast-out { to { opacity: 0; transform: translateY(8px) scale(.97); } }
+
+@media (max-width: 1050px) {
+  .site-nav { gap: 20px; }
+  .nav-links { gap: 17px; }
+  .nav-cta { padding: 11px 12px; }
+  .search-panel { grid-template-columns: 190px 1fr; }
+  .search-fields { grid-template-columns: repeat(2, 1fr) 1.2fr; }
+  .search-submit { grid-column: span 3; }
+  .property-image-wrap { height: 380px; }
+  .property-card:nth-child(2) .property-image-wrap, .property-card:nth-child(3) .property-image-wrap { height: 300px; margin-top: 80px; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 760px) {
+  .site-nav { height: 70px; }
+  .nav-links { position: absolute; top: 70px; left: 16px; right: 16px; display: none; flex-direction: column; align-items: stretch; gap: 0; padding: 10px; background: rgba(21,24,23,.96); border: 1px solid rgba(255,255,255,.1); backdrop-filter: blur(16px); }
+  .nav-links--open { display: flex; }
+  .nav-links button { padding: 14px; text-align: left; border-bottom: 1px solid rgba(255,255,255,.08); }
+  .nav-links button:last-child { border-bottom: 0; }
+  .nav-cta { display: none; }
+  .menu-toggle { display: grid; place-items: center; margin-left: auto; }
+  .hero-section { min-height: 720px; height: 87vh; }
+  .hero-image { background-position: 62% center; }
+  .hero-title { font-size: clamp(54px, 14vw, 82px); }
+  .hero-subtitle { max-width: 305px; font-size: 13px; }
+  .hero-note { left: 22px; bottom: -76px; }
+  .hero-side-label { display: none; }
+  .scroll-cue { right: 20px; bottom: 22px; }
+  .search-wrap { margin-top: 0; padding-top: 0; }
+  .search-panel { grid-template-columns: 1fr; gap: 26px; padding: 25px 20px; }
+  .search-intro { padding-right: 0; padding-bottom: 19px; border-right: 0; border-bottom: 1px solid rgba(29,33,31,.13); }
+  .search-fields { grid-template-columns: 1fr 1fr; gap: 20px 14px; padding-left: 0; }
+  .search-submit { grid-column: span 2; }
+  .section-heading--split { display: block; }
+  .heading-aside { max-width: 360px; margin-top: 30px; }
+  .display-title { font-size: clamp(52px, 14vw, 80px); }
+  .property-grid { grid-template-columns: 1fr; gap: 42px; }
+  .property-image-wrap, .property-card:nth-child(2) .property-image-wrap, .property-card:nth-child(3) .property-image-wrap { height: min(90vw, 420px); margin-top: 0; }
+  .why-section { grid-template-columns: 1fr; gap: 55px; }
+  .why-visual { min-height: 410px; }
+  .reason-list { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr 1fr; gap: 9px; }
+  .service-card { min-height: 230px; padding: 16px; }
+  .service-bottom h3 { font-size: 20px; }
+  .service-bottom p { display: none; }
+  .location-section { grid-template-columns: 1fr; padding-left: 0; padding-right: 0; }
+  .location-map { min-height: 410px; }
+  .location-copy { min-height: 480px; padding: 75px 22px; }
+  .contact-section { grid-template-columns: 1fr; gap: 55px; }
+  .inquiry-form { padding: 23px 19px; }
+  .site-footer { align-items: flex-start; flex-direction: column; padding-top: 34px; padding-bottom: 34px; }
+  .footer-center { text-align: left; }
+  .footer-right { flex-wrap: wrap; }
+}
+@media (max-width: 430px) {
+  .hero-actions { align-items: stretch; flex-direction: column; max-width: 200px; }
+  .search-fields, .form-row { grid-template-columns: 1fr; }
+  .search-submit { grid-column: auto; }
+  .services-grid { grid-template-columns: 1fr; }
+  .service-card { min-height: 200px; }
+  .location-actions { align-items: flex-start; flex-direction: column; }
+  .location-actions .button { width: 160px; justify-content: space-between; }
+}
+</style>
+</head>
+<body>
+<main class="site-shell">
+
+  <header class="site-nav" id="siteNav">
+    <button class="brand" onclick="scrollToId('top')" aria-label="Back to top">
+      <span class="brand-mark">H</span>
+      <span class="brand-copy"><strong>HASSAN</strong><small>REAL ESTATE &amp; BUILDERS</small></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <button onclick="navTo('properties')">Properties</button>
+      <button onclick="navTo('services')">Services</button>
+      <button onclick="navTo('location')">Location</button>
+      <button onclick="navTo('contact')">Contact</button>
+    </nav>
+    <button class="nav-cta" onclick="scrollToId('contact')">Start a conversation <i data-lucide="arrow-up-right" size="15"></i></button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" onclick="toggleMenu()"><i data-lucide="menu" size="21"></i></button>
+  </header>
+
+  <section id="top" class="hero-section">
+    <div class="hero-image"></div>
+    <div class="hero-vignette"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content page-width">
+      <div class="hero-kicker reveal-up"><span class="gold-dot"></span> JHELUM <span class="kicker-divider">•</span> PUNJAB, PAKISTAN</div>
+      <h1 class="hero-title reveal-up delay-1">Find the right<br /><em>property.</em><br /><span>Build your future.</span></h1>
+      <p class="hero-subtitle reveal-up delay-2">Explore residential and commercial property opportunities in Jhelum with Hassan Real Estate &amp; Builders.</p>
+      <div class="hero-actions reveal-up delay-3">
+        <button class="button button--gold" onclick="scrollToId('properties')">Explore properties <i data-lucide="arrow-up-right" size="17"></i></button>
+        <button class="button button--line" onclick="scrollToId('contact')">Contact us <i data-lucide="arrow-down-right" size="17"></i></button>
+      </div>
+      <div class="hero-note reveal-up delay-4"><span>01</span><div class="hero-note-line"></div><span>Curated opportunities.<br />Clearer next steps.</span></div>
+    </div>
+    <div class="hero-side-label">REAL ESTATE · BUILDERS · JHELUM</div>
+    <button class="scroll-cue" onclick="scrollToId('properties')" aria-label="Scroll to properties"><span>Scroll to explore</span><i data-lucide="arrow-down-right" size="18"></i></button>
+  </section>
+
+  <section class="search-wrap page-width" aria-label="Property search">
+    <form class="search-panel" id="searchForm">
+      <div class="search-intro"><span class="eyebrow">THE NEXT MOVE</span><h2>Find a property<br /><em>that fits you.</em></h2></div>
+      <div class="search-fields">
+        <label class="field-group"><span>Looking to</span><div class="select-wrap"><select id="searchType"><option value="buy">Buy</option><option value="rent">Rent</option></select><i data-lucide="chevron-down" size="15"></i></div></label>
+        <label class="field-group"><span>Property type</span><div class="select-wrap"><select id="propertyType"><option value="house">House</option><option value="plot">Plot</option><option value="commercial">Commercial</option></select><i data-lucide="chevron-down" size="15"></i></div></label>
+        <label class="field-group"><span>Location</span><div class="input-with-icon"><i data-lucide="map-pin" size="15"></i><input placeholder="Jhelum" /></div></label>
+        <label class="field-group field-group--wide"><span>Property size / budget</span><div class="input-with-icon"><i data-lucide="search" size="15"></i><input placeholder="Any size or budget" /></div></label>
+        <button class="search-submit" type="submit"><span>Search properties</span><i data-lucide="arrow-up-right" size="18"></i></button>
+      </div>
+    </form>
+  </section>
+
+  <section id="properties" class="section section--light page-width">
+    <div class="section-heading section-heading--split">
+      <div><span class="eyebrow eyebrow--dark">SELECTED OPPORTUNITIES</span><h2 class="display-title">Featured<br /><em>properties.</em></h2></div>
+      <div class="heading-aside"><p>Demo listings for presentation purposes. Availability and pricing to be confirmed with Hassan Real Estate &amp; Builders.</p><button class="text-link text-link--dark" onclick="scrollToId('contact')">Discuss your brief <i data-lucide="arrow-up-right" size="16"></i></button></div>
+    </div>
+    <div class="property-grid" id="propertyGrid"></div>
+  </section>
+
+  <section class="section section--dark why-section page-width">
+    <div class="why-visual">
+      <div class="wireframe-orbit orbit-one"></div>
+      <div class="wireframe-orbit orbit-two"></div>
+      <div class="wireframe-building"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+      <div class="why-visual-label"><span>H</span><span>LOCAL INTELLIGENCE<br />· CLEAR DIRECTION</span></div>
+    </div>
+    <div class="why-copy">
+      <span class="eyebrow">THE HASSAN DIFFERENCE</span>
+      <h2 class="display-title display-title--light">More than property.<br /><em>A better way forward.</em></h2>
+      <p class="why-lede">The right property decision starts with a better understanding of where you want to go. We keep the process considered, personal, and connected to Jhelum.</p>
+      <div class="reason-list" id="reasonList"></div>
+    </div>
+  </section>
+
+  <section id="services" class="section section--light page-width services-section">
+    <div class="section-heading">
+      <span class="eyebrow eyebrow--dark">HOW WE HELP</span>
+      <h2 class="display-title">Move with<br /><em>intention.</em></h2>
+      <p class="section-intro">From the first conversation to the next chapter, our services are built around clarity, local context, and the confidence to move forward.</p>
+    </div>
+    <div class="services-grid" id="servicesGrid"></div>
+    <div class="service-note"><i data-lucide="shield-check" size="17"></i><span>Construction-related services are shown at a high level and should be confirmed with Hassan Real Estate &amp; Builders before publishing detailed claims.</span></div>
+  </section>
+
+  <section id="location" class="location-section page-width">
+    <div class="location-map">
+      <div class="map-noise"></div>
+      <div class="map-grid-lines"></div>
+      <div class="map-road map-road--one"></div>
+      <div class="map-road map-road--two"></div>
+      <div class="map-road map-road--three"></div>
+      <div class="map-road map-road--four"></div>
+      <div class="map-pin"><span></span><div><strong>Hassan Real Estate</strong><small>Milad Plaza · Jhelum</small></div></div>
+      <div class="map-coordinates">32.9425° N<br />73.7257° E</div>
+      <div class="map-corner">JHELUM / PUNJAB<br /><span>PAKISTAN</span></div>
+    </div>
+    <div class="location-copy">
+      <span class="eyebrow">COME BY · CONNECT · BEGIN</span>
+      <h2 class="display-title display-title--light">Find us in<br /><em>Jhelum.</em></h2>
+      <p class="location-address"><strong>Milad Plaza</strong><br />Main Boulevard<br />Citi Housing, Jhelum</p>
+      <a class="phone-link" href="tel:03345861731"><i data-lucide="phone" size="17"></i> 0334-5861731</a>
+      <div class="location-actions">
+        <a class="button button--gold" href="tel:03345861731">Call now <i data-lucide="phone" size="16"></i></a>
+        <a class="button button--outline-light" href="https://wa.me/923345861731" target="_blank" rel="noreferrer">WhatsApp <i data-lucide="message-circle" size="16"></i></a>
+        <a class="text-link text-link--light" href="https://www.google.com/maps/search/?api=1&query=Milad+Plaza+Citi+Housing+Jhelum" target="_blank" rel="noreferrer">Get directions <i data-lucide="navigation" size="15"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section page-width">
+    <div class="contact-intro">
+      <span class="eyebrow eyebrow--dark">YOUR NEXT CHAPTER</span>
+      <h2 class="display-title">Let's talk about<br /><em>your property.</em></h2>
+      <p>Tell us what you are looking for and we will help shape the next step.</p>
+      <div class="contact-phone"><span>Prefer a direct line?</span><a href="tel:03345861731">0334-5861731 <i data-lucide="arrow-up-right" size="16"></i></a></div>
+    </div>
+    <form class="inquiry-form" id="inquiryForm">
+      <div class="form-row">
+        <label><span>Your name</span><input required placeholder="Full name" /></label>
+        <label><span>Phone number</span><input required type="tel" placeholder="03xx-xxxxxxx" /></label>
+      </div>
+      <div class="form-row">
+        <label><span>I'm looking to</span><div class="select-wrap select-wrap--dark"><select><option value="buy">Buy</option><option value="sell">Sell</option><option value="rent">Rent</option><option value="investment">Invest</option></select><i data-lucide="chevron-down" size="15"></i></div></label>
+        <label><span>Property type</span><div class="select-wrap select-wrap--dark"><select><option value="house">House</option><option value="plot">Plot</option><option value="commercial">Commercial</option></select><i data-lucide="chevron-down" size="15"></i></div></label>
+      </div>
+      <label><span>Message</span><textarea placeholder="Tell us a little about what you have in mind..." rows="4"></textarea></label>
+      <button class="button button--gold form-submit" type="submit" id="inquirySubmitBtn"><span id="inquirySubmitText">Send inquiry</span><i data-lucide="arrow-up-right" size="17" id="inquirySubmitIcon"></i></button>
+    </form>
+  </section>
+
+  <footer class="site-footer page-width">
+    <div class="footer-brand"><span class="brand-mark">H</span><div><strong>HASSAN</strong><small>REAL ESTATE &amp; BUILDERS</small></div></div>
+    <div class="footer-center">Property, with a clearer point of view.<br /><span>Jhelum · Punjab · Pakistan</span></div>
+    <div class="footer-right"><a href="tel:03345861731">0334-5861731</a><a href="https://wa.me/923345861731" target="_blank" rel="noreferrer">WhatsApp <i data-lucide="arrow-up-right" size="13"></i></a></div>
+  </footer>
+
+</main>
+
+<div class="toast-stack" id="toastStack"></div>
+
+<script>
+// ---- Data ----
+var listings = [
+  { title: "Modern Family House", location: "Citi Housing, Jhelum", detail: "5 Marla  •  4 Beds  •  4 Baths", type: "Residential", image: "images/house.jpg", number: "01" },
+  { title: "Residential Plot", location: "Citi Housing, Jhelum", detail: "5 Marla  •  Prime Location", type: "Land", image: "images/plot.jpg", number: "02" },
+  { title: "Commercial Property", location: "Jhelum", detail: "Commercial  •  Main Location", type: "Commercial", image: "images/commercial.jpg", number: "03" }
+];
+var services = [
+  { icon: "home", index: "01", title: "Property Buying", copy: "Find suitable properties based on location and requirements." },
+  { icon: "arrow-up-right", index: "02", title: "Property Selling", copy: "Present properties professionally to potential buyers." },
+  { icon: "lightbulb", index: "03", title: "Property Consultation", copy: "Get assistance when evaluating property opportunities." },
+  { icon: "building-2", index: "04", title: "Real Estate & Construction", copy: "Real-estate and building-related services, tailored to your next move." }
+];
+var reasons = [
+  { title: "Local Knowledge", copy: "Jhelum-focused property assistance.", icon: "map-pin" },
+  { title: "Personalized Service", copy: "Solutions based on the client's requirements.", icon: "sparkles" },
+  { title: "Property Opportunities", copy: "Residential and commercial options.", icon: "landmark" },
+  { title: "Direct Communication", copy: "Easy contact through phone and WhatsApp.", icon: "message-circle" }
+];
+
+// ---- Render ----
+function renderProperties() {
+  var grid = document.getElementById('propertyGrid');
+  grid.innerHTML = listings.map(function (l) {
+    return '<article class="property-card">' +
+      '<div class="property-image-wrap"><img src="' + l.image + '" alt="' + l.title + '" />' +
+      '<span class="demo-tag">DEMO LISTING</span><span class="property-number">' + l.number + '</span>' +
+      '<button class="property-arrow" aria-label="View ' + l.title + '" onclick="notifyListing(\'' + l.title.replace(/'/g, "\\'") + '\')"><i data-lucide="arrow-up-right" size="19"></i></button></div>' +
+      '<div class="property-card-body"><div><span class="property-type">' + l.type + '</span><h3>' + l.title + '</h3>' +
+      '<p><i data-lucide="map-pin" size="13"></i> ' + l.location + '</p><span class="property-detail">' + l.detail + '</span></div>' +
+      '<span class="property-index">/ ' + l.number + '</span></div></article>';
+  }).join('');
+}
+
+function renderServices() {
+  var grid = document.getElementById('servicesGrid');
+  grid.innerHTML = services.map(function (s) {
+    return '<article class="service-card"><div class="service-top"><span>' + s.index + '</span><i data-lucide="' + s.icon + '" size="25" style="stroke-width:1.3"></i></div>' +
+      '<div class="service-bottom"><h3>' + s.title + '</h3><p>' + s.copy + '</p><i data-lucide="arrow-up-right" size="19"></i></div></article>';
+  }).join('');
+}
+
+function renderReasons() {
+  var list = document.getElementById('reasonList');
+  list.innerHTML = reasons.map(function (r) {
+    return '<div class="reason-item"><div class="reason-icon"><i data-lucide="' + r.icon + '" size="18"></i></div>' +
+      '<div><h3>' + r.title + '</h3><p>' + r.copy + '</p></div><i data-lucide="check" size="16" class="reason-check"></i></div>';
+  }).join('');
+}
+
+renderProperties();
+renderServices();
+renderReasons();
+if (window.lucide) { lucide.createIcons(); }
+
+// ---- Toasts ----
+function showToast(title, description) {
+  var stack = document.getElementById('toastStack');
+  var el = document.createElement('div');
+  el.className = 'toast-item';
+  el.innerHTML = '<strong>' + title + '</strong>' + (description ? '<span>' + description + '</span>' : '');
+  stack.appendChild(el);
+  setTimeout(function () {
+    el.classList.add('toast-out');
+    setTimeout(function () { el.remove(); }, 300);
+  }, 3200);
+}
+
+function notifyListing(title) {
+  showToast('Listing details coming soon', 'This is a demo listing. Contact Hassan Real Estate & Builders for current opportunities.');
+}
+
+// ---- Nav / scroll behavior ----
+function scrollToId(id) {
+  var el = document.getElementById(id);
+  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+function navTo(id) {
+  scrollToId(id);
+  closeMenu();
+}
+function toggleMenu() {
+  var nav = document.getElementById('navLinks');
+  var btn = document.getElementById('menuToggle');
+  var isOpen = nav.classList.toggle('nav-links--open');
+  btn.innerHTML = isOpen ? '<i data-lucide="x" size="21"></i>' : '<i data-lucide="menu" size="21"></i>';
+  if (window.lucide) lucide.createIcons();
+}
+function closeMenu() {
+  var nav = document.getElementById('navLinks');
+  var btn = document.getElementById('menuToggle');
+  nav.classList.remove('nav-links--open');
+  btn.innerHTML = '<i data-lucide="menu" size="21"></i>';
+  if (window.lucide) lucide.createIcons();
+}
+
+window.addEventListener('scroll', function () {
+  var nav = document.getElementById('siteNav');
+  if (window.scrollY > 30) nav.classList.add('site-nav--scrolled');
+  else nav.classList.remove('site-nav--scrolled');
+}, { passive: true });
+
+// ---- Forms ----
+document.getElementById('searchForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  var searchType = document.getElementById('searchType').value;
+  var propertyType = document.getElementById('propertyType').value;
+  var typeLabel = searchType === 'buy' ? 'Buy' : 'Rent';
+  var propLabel = propertyType === 'house' ? 'House' : propertyType === 'plot' ? 'Plot' : 'Commercial';
+  scrollToId('properties');
+  showToast('Showing demo opportunities', typeLabel + ' · ' + propLabel + ' · Jhelum');
+});
+
+document.getElementById('inquiryForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  document.getElementById('inquirySubmitText').textContent = 'Inquiry noted';
+  document.getElementById('inquirySubmitIcon').setAttribute('data-lucide', 'check');
+  if (window.lucide) lucide.createIcons();
+  showToast('Inquiry ready to send', 'Hassan Real Estate & Builders will follow up on 0334-5861731.');
+});
+
+// Keep page anchored at top on reload
+if ('scrollRestoration' in window.history) {
+  window.history.scrollRestoration = 'manual';
+}
+</script>
+</body>
+</html>
